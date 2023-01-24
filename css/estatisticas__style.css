@@ -1,0 +1,92 @@
+:root {
+    --preto-bg-inpe: #161617;
+    --amarelo-bg-inpe:#F29406;
+    --azul-bg-inpe:#0979B9;
+    --azulescuro-bg-inpe:#071d41;
+    --bege-bg-inpe:#E4DBCE;
+    --branco-bg-inpe:#FFFFFF;
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@font-face {
+    font-family: 'Anton';
+    src: url(/font/Anton-Regular.ttf);
+}
+
+.fundo-escuro {
+    background-color: var(--azulescuro-bg-inpe);
+}
+
+#fundo-escuro {
+    background-color: var(--azulescuro-bg-inpe);
+}
+
+.legenda-amarela {
+    color: var(--amarelo-bg-inpe);
+}
+
+.legenda-preta {
+    color: var(--preto-bg-inpe);
+}
+
+#legenda-amarela {
+    color: var(--amarelo-bg-inpe);
+}
+
+#legenda-preta {
+    color: var(--preto-bg-inpe);
+}
+
+img#logo__coids {
+    width: 6rem;
+    /* background-color: var(--branco-bg-inpe); */
+    /* border-radius: 50%; */
+}
+
+.header-sign h1 {
+    width: 9rem;
+    font-size: 60px;
+    margin-bottom: 0;
+    font-weight: bolder;
+    font-weight: 100;
+}
+
+#header {
+    /* background-color: #F29406; */
+    background-color: var(--azulescuro-bg-inpe);
+}
+
+#header h1 {
+    color: var(--amarelo-bg-inpe);
+    text-shadow: 0.05em 0.01em var(--azul-bg-inpe);
+    font-family: 'Anton';
+}
+
+#menu__header {
+    background-color: var(--azulescuro-bg-inpe);
+    color: var(--amarelo-bg-inpe);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#menu__header:hover {
+    background-color: var(--amarelo-bg-inpe);
+    color: var(--azulescuro-bg-inpe);
+    border-radius: 10%;
+}
+
+#icon__menu {
+    color: var(--amarelo-bg-inpe);
+}
+
+.header-title {
+    color: var(--amarelo-bg-inpe);
+    font-size: 20px;
+}
+
+.header-subtitle {
+    color: var(--amarelo-bg-inpe);
+}
+
+.size__lists {
+    width: 49%;
+}

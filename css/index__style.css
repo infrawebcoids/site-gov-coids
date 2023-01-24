@@ -1,0 +1,39 @@
+:root {
+    --preto-bg-inpe: #161617;
+    --amarelo-bg-inpe:#F29406;
+    --azul-bg-inpe:#0979B9;
+    --azulescuro-bg-inpe:#071d41;
+    --bege-bg-inpe:#E4DBCE;
+    --branco-bg-inpe:#FFFFFF;
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@font-face {
+    font-family: 'Anton';
+    src: url(/font/Anton-Regular.ttf);
+}
+
+.conteudo-texto {
+    background-color:white;
+    color: var(--azulescuro-bg-inpe);
+}
+
+.conteudo-texto p, h4 {
+    color: var(--azulescuro-bg-inpe);
+    font-size: 21px;
+}
+
+/* .logo_coids_noBackground {
+    background-size: 30rem;
+    background-repeat: no-repeat;
+    background-image: url(/img/COIDS_-_Logo-removebg.png);
+    background-position: right;
+} */
+
+.paragrafo_coids {
+    margin-left: 4rem;
+}
+
+.logo_coids_noBackground {
+    /* background-size: 16rem;
+    background-position: right; */
+}
