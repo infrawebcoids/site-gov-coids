@@ -1,70 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <title>INPE - COIDS (Coordenação de Infraestrutura de Dados e Supercomputação)</title>
-    </head>
 
-    <body>
-        <div class="template-base">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/contato.css">
+    <title> INPE - COIDS (Coordenação de Infraestrutura de Dados e Supercomputação)</title>
+</head>
+<!-- div para inserção de conteúdo -->
+<div class="page-content">
+    <!-- seta para ancoragem da página -->
+    <a class="btn-fixed" href="#header">
+        <span class="material-symbols-outlined seta-ancora">
+            arrow_circle_up
+        </span>
+    </a>
+
+    <!-- div de importação do header -->
     <div id="header"></div>
-<!------------------------------------------------------------------------------>
-<!-- Contato-->
-<main class="d-flex flex-fill mb-5" id="main">
-    <div class="container">
-        <h2 class="text-center">CONTATO</h2>
-            <div class="container d-flex justify-content-center">
-                <div class="list-group size__lists p-2 w-25">
-                    <li class="list-group-item active text-center" aria-current="true">Secretaria</li>
-                    <a href=" " class="list-group-item list-group-item-action link-primary" aria-current="true"> <img src="img/patricia_marucco.jpeg" alt="Patrícia"> 
-                        <p>
-                            <b>Patrícia Marucco</b> <br> Apoio Administrativo <br> Secretária Coordenação de Infraestrutura de Dados e Supercomputação - COIDS <br> Instituto Nacional de Pesquisas Espaciais - INPE <br> Cachoeira Paulista - SP <br> Contato: 012 3186.9468 / 9274
-                        </p>
-                    </a> 
-                </div>             
 
-                <div class="list-group size__lists p-2 w-25">
-                    <li class="list-group-item active text-center" aria-current="true">Secretaria</li>
-                    <a href=" " class="list-group-item list-group-item-action link-primary" aria-current="true"> <img src="img/vanessa_ventura.jpeg" alt="Vanessa">
-                        <p>
-                            <b>Vanessa Ventura Sene Gonçalves</b> <br> Secretária - Serviço de Supercomputação - SESUP Coordenação de Infraestrutura de Dados e Supercomputação - COIDS <br> Instituto Nacional de Pesquisas Espaciais - INPE <br> Cachoeira Paulista - SP <br> Contato: 012 3186.8418
-                        </p>
-                    </a> 
-                </div>  
-               
-                <div class="list-group size__lists p-2 w-25">
-                    <li class="list-group-item active text-center" aria-current="true">Secretaria</li>
-                    <a href=" " class="list-group-item list-group-item-action link-primary" aria-current="true"> <img src="img/Wanilene_sabara.jpeg" alt="Wanilene"> 
-                        <p>
-                            <b>Wanilene Sabará Cassiano</b> <br> Secretária <br> Gestão de Compras/Projetos – COIDS/COPDT-CP/CGIP <br><br> Instituto Nacional de Pesquisas Espaciais - INPE <br> Cachoeira Paulista - SP <br> Contato: 012 3186.8511
-                        </p>
-                    </a> 
-                </div>   
+    <!-- conteudo da página -->
+    <main class="content">
 
-                <div class="list-group size__lists p-2 w-25">
-                    <li class="list-group-item active text-center" aria-current="true">Secretaria</li>
-                    <a href=" " class="list-group-item list-group-item-action link-primary" aria-current="true"> <img src="img/yasmim_cunha.jpeg" alt="Yasmim"> 
-                        <p>
-                            <b>Yasmim Moreira Ferreira Cunha</b> <br> Estagiária <br> Coordenação de Pesquisa Aplicada e Desenvolvimento Tecnológico – COPDT <br>Instituto Nacional de Pesquisas Espaciais - INPE <br> Cachoeira Paulista - SP <br> Contato: 012 3186.8504
-                        </p>
-                    </a> 
-                </div> 
+        <!-- Divisão de conteúdo -->
+        <div class="container conteudo-coids">
+            <h2 class="text-center col-12 subtitulo-padrao-conteudo">CONTATO</h2>
+            <!-- texto coids -->
+            <div class="col col-12 text-center texto-padrao-conteudo">
+                <p>Secretaria</p>
+            </div>
+
+            <div class="d-flex justify-content-between">
+
+                <!-- Card -->
+                <div class="card format-card" style="width: 21rem; border-radius: 0px;">
+                    <img src="img/patricia_marucco.jpeg" class="card-img-top" style="border-radius: 0px;"
+                        alt="Patricia">
+                    <div class="card-body estilo-texto-card">
+                        <h5 class="card-title text-center">Patrícia Marucco</h5>
+                        <p class="card-text">Secretária - Serviço de Supercomputação - SESUP Coordenação de
+                            Infraestrutura de Dados e Supercomputação - COIDS <br> Instituto Nacional de Pesquisas
+                            Espaciais - INPE <br> Cachoeira Paulista - SP <br> Contato: 012 3186.9468 / 9274</p> <br>
+                        <p class="card-text">Email: <a href="">patricia.marucco@inpe.br</a> / <a
+                                href="">secretaria.coids@inpe.br</a> </p>
+                    </div>
+                </div>
+                <!-- Fim do Card -->
+
+                <!-- Card -->
+                <div class="card format-card" style="width: 21rem; border-radius: 0px;">
+                    <img src="img/vanessa_ventura.jpeg" class="card-img-top" style="border-radius: 0px;" alt="Vanessa">
+                    <div class="card-body estilo-texto-card">
+                        <h5 class="card-title text-center">Vanessa Ventura Sene Gonçalves</h5>
+                        <p class="card-text">Secretária - Serviço de Supercomputação - SESUP Coordenação de
+                            Infraestrutura de Dados e Supercomputação - COIDS <br> Instituto Nacional de Pesquisas
+                            Espaciais - INPE <br> Cachoeira Paulista - SP <br> Contato: 012 3186.8418</p>
+                        <p class="card-text">Email: <a href="">vanessa.ventura@inpe.br</a> / <a
+                                href="">sesup@inpe.br</a> </p>
+                    </div>
+                </div>
+                <!-- Fim do Card -->
+
+                <!-- Card -->
+                <div class="card format-card" style="width: 21rem; border-radius: 0px;">
+                    <img src="img/Wanilene_sabara.jpeg" class="card-img-top" style="border-radius: 0px;" alt="Wanilene">
+                    <div class="card-body estilo-texto-card">
+                        <h5 class="card-title text-center">Wanilene Sabará Cassiano</h5>
+                        <p class="card-text">Secretária - Serviço de Supercomputação - Gestão de Compras/Projetos –
+                            COIDS/COPDT-CP/CGIP <br> Instituto Nacional de Pesquisas Espaciais - INPE <br> Cachoeira
+                            Paulista - SP <br> Contato: 012 3186.8511</p>
+                        <p class="card-text">Email: <a href="">wanilene.cassiano@inpe.br</a> </p>
+                    </div>
+                </div>
+                <!-- Fim do Card -->
 
             </div>
-    </div>
-</main>
-        <!-- fim do contato -->
-    
-    <!------------------------------------------------------------------------------>
+
+            <!-- Fim da divisão de conteúdo -->
+        </div>
+
+
+    </main>
+
+    <!-- div de importação do footer -->
     <div id="footer"></div>
 </div>
 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="js/load_template.js"></script>
+</body>
 
-        <!-- JavaScript Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-        <!-- Scripts de componentes -->
-        <script src="node_modules/@govbr-ds/core/dist/core-init.js"></script>
-
-        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-        <script src="js/load_template.js"></script>
-    </body>
 </html>

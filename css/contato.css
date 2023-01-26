@@ -1,0 +1,74 @@
+:root {
+    --preto-bg-inpe: #161617;
+    --amarelo-bg-inpe:#F29406;
+    --azul-bg-inpe:#0979B9;
+    --azulescuro-bg-inpe:#071d41;
+    --bege-bg-inpe:#E4DBCE;
+    --branco-bg-inpe:#FFFFFF;
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@font-face {
+    font-family: 'Anton';
+    src: url(/font/Anton-Regular.ttf);
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* para garantir que o rodapé fique sempre no final */
+}
+
+.content {
+    flex-grow: 1; /* faz com que o conteúdo ocupe todo o espaço disponível */
+}
+
+.subtitulo-padrao-conteudo {
+    text-transform: uppercase;
+    font-family: 'Rawline', Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 34.832px;
+    text-shadow: 1px 1px 1.5px #161617;
+}
+
+.texto-padrao-conteudo {
+    font-family: 'Rawline', Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    padding: 0;
+}
+
+.img-conteudo-coids img {
+    width: 31rem;
+    height: 31rem;
+}
+
+.conteudo-coids {
+    margin-top: 6rem;
+}
+
+.texto-coids-content {
+    margin-top: 2rem;
+}
+
+.format-card {
+    padding: 0.3rem;
+    margin-bottom: 5rem;
+}
+
+.estilo-texto-card h5 {
+    text-shadow: 1px 1px 1.5px #161617;
+    text-transform: uppercase;
+    font-family: 'Rawline', Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.estilo-texto-card p {
+    font-family: 'Rawline', Raleway, sans-serif;
+}
+
+.estilo-texto-card a {
+    font-family: 'Rawline', Raleway, sans-serif;
+    color: var(--azulescuro-bg-inpe);
+    text-shadow: 1px 1px 1.5px #476cac;
+}
