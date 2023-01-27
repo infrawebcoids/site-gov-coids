@@ -69,10 +69,9 @@
 }
 
 .estilo-texto-card h5 {
-    text-shadow: 1px 1px 1.5px #161617;
     text-transform: uppercase;
     font-family: 'Rawline', Raleway, sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 21px;
 }
 
