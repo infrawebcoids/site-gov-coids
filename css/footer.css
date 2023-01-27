@@ -17,6 +17,24 @@
     background-color: var(--azulescuro-bg-inpe);
 }
 
+#logo-coids {
+    width: 4.5rem;
+}
+
+#logo-inpe {
+    width: 11.5rem;
+    /* background-color: var(--branco-bg-inpe);
+    border-radius: 50% ; */
+}
+
+#titulo-inpe {
+    font-family: 'Roboto', HelveticaNeue, Arial, sans-serif;
+    font-size: 3rem;
+    color: #0078BA;
+    text-shadow: 0.02em 0.01em var(--branco-bg-inpe);
+    font-weight: 400;
+}
+
 .fonte-footer {
     font-family: 'Rawline', Raleway, sans-serif;
     font-size: 11.662px;
@@ -37,6 +55,7 @@ footer {
     color: var(--amarelo-bg-inpe);
     text-shadow: 0.05em 0.01em var(--azul-bg-inpe);
     font-family: 'Anton';
+    font-size: 3rem;
 }
 
 .fonte_footer p a {

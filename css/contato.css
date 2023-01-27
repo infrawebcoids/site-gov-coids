@@ -25,9 +25,9 @@
 .subtitulo-padrao-conteudo {
     text-transform: uppercase;
     font-family: 'Rawline', Raleway, sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 34.832px;
-    text-shadow: 1px 1px 1.5px #161617;
+    margin-bottom: 2rem;
 }
 
 .texto-padrao-conteudo {
@@ -42,8 +42,13 @@
     height: 31rem;
 }
 
+.card-img-top img{
+    justify-content: center;
+}
+
 .conteudo-coids {
     margin-top: 6rem;
+    margin-bottom: 22rem;
 }
 
 .texto-coids-content {
@@ -53,6 +58,14 @@
 .format-card {
     padding: 0.3rem;
     margin-bottom: 5rem;
+}
+
+.format-card img {
+    width: 10rem;
+}
+
+.format-card-img {
+    justify-content: center;
 }
 
 .estilo-texto-card h5 {
@@ -70,5 +83,5 @@
 .estilo-texto-card a {
     font-family: 'Rawline', Raleway, sans-serif;
     color: var(--azulescuro-bg-inpe);
-    text-shadow: 1px 1px 1.5px #476cac;
+    font-weight: 600;
 }

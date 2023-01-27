@@ -25,9 +25,9 @@
 .subtitulo-padrao-conteudo {
     text-transform: uppercase;
     font-family: 'Rawline', Raleway, sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 34.832px;
-    text-shadow: 1px 1px 1.5px #161617;
+    margin-bottom: 2rem;
 }
 
 .texto-padrao-conteudo {
@@ -46,7 +46,7 @@
 }
 
 .conteudo-coids-listas {
-    margin-bottom: 5rem;
+    margin-bottom: 22rem;
 }
 
 .subtitulo-listas-estatisticas {

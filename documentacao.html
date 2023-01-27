@@ -1,48 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>        
-        <title>INPE - COIDS (Coordenação de Infraestrutura de Dados e Supercomputação)</title>
-    </head>
 
-    <body>
-      <div class="template-base">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/documentacao.css">
+    <title> INPE - COIDS (Coordenação de Infraestrutura de Dados e Supercomputação)</title>
+</head>
+<!-- div para inserção de conteúdo -->
+<div class="page-content">
+    <!-- seta para ancoragem da página -->
+    <a class="btn-fixed" href="#header">
+        <span class="material-symbols-outlined seta-ancora">
+            arrow_circle_up
+        </span>
+    </a>
+
+    <!-- div de importação do header -->
     <div id="header"></div>
 
-<!------------------------------------------------------------------------------>
+    <!-- conteudo da página -->
+    <main class="content">
 
- <!-- Sobre-->
-<!------------------------------------------------------------------------------>
+        <!-- Divisão de conteúdo -->
+        <div class="container conteudo-coids">
+            <!-- titulo sobre -->
+            <h2 class="text-center col-12 subtitulo-padrao-conteudo">DOCUMENTAÇÃO</h2>
+            <!-- texto coids -->
+            <div class="col col-12 text-center texto-padrao-conteudo">
+                <p>Nesta área estão disponíveis os documentos referentes ao 3S Portal, dentre eles: formulários, autorizações e requisições, etc, dentre eles:
+                </p>
+            </div>
 
-<main class="d-flex flex-fill mb-5" id="main">
-  <!-- <div class="row"> -->
-      <div class="container w-100 justify-content-center">
-          <h2 class="text-center">DOCUMENTAÇÃO</h2>
-          <div class="d-flex justify-content-between">
-              <div class="list-group size__lists">
-                  <li class="list-group-item active text-center" aria-current="true">Documentos</li>
-                  <a href="http://sssn.cptec.inpe.br/biblioteca/documento/" class="list-group-item list-group-item-action link-primary" aria-current="true" target="_blank">Biblioteca de Documentos - Listagem de documentos da COIDS / 3S Portal</a>
-              </div>
-          </div>
-      <!-- </div> -->
-  </div>
-</main>
+            <div class="conteudo-coids-listas d-flex">
 
-<!------------------------------------------------------------------------------>
- <!-- fim do sobre -->
- 
-<!------------------------------------------------------------------------------>
+                <ul class="list-group w-100 ">
+                    <li class="list-group-item active subtitulo-listas-estatisticas text-center" aria-current="true">ACESSOS</li>
+                    <li class="list-group-item item-listas-estatisticas">
+                        <a href="http://sssn.cptec.inpe.br/biblioteca/documento/" class="link-primary" aria-current="true" target="_blank">Biblioteca de Documentos - Listagem de documentos da COIDS / 3S Portal</a>
+                    </li>
+                </ul>
 
- <div id="footer"></div>
+            </div>
+
+
+            <!-- Fim da divisão de conteúdo -->
+        </div>
+
+
+    </main>
+
+    <!-- div de importação do footer -->
+    <div id="footer"></div>
 </div>
 
-        <!-- JavaScript Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-        <!-- Scripts de componentes -->
-        <script src="node_modules/@govbr-ds/core/dist/core-init.js"></script>
-        
-        
-        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-      <script src="js/load_template.js"></script>
-    </body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="js/load_template.js"></script>
+</body>
+
 </html>
- <!-- fim do footer -->

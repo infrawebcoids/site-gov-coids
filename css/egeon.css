@@ -27,7 +27,6 @@
     font-family: 'Rawline', Raleway, sans-serif;
     font-weight: 600;
     font-size: 34.832px;
-    margin-bottom: 2rem;
 }
 
 .texto-padrao-conteudo p{
@@ -42,10 +41,15 @@
 }
 
 .conteudo-coids {
-    margin-top: 6rem;
+    margin-top: 10rem;
     margin-bottom: 22rem;
 }
 
 .justificado {
     text-align: justify;
+}
+
+.img-egeon img {
+    width: 32rem;
+    height: 32rem;
 }
